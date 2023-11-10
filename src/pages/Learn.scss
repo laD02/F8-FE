@@ -1,0 +1,153 @@
+.content-learn{
+    margin-top: 100px;
+    margin-left: 8%;
+    .title{
+        margin-left: 5%;
+        h2{
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+    }
+    .content-container{
+        margin-top: 50px;
+        margin-left: 5%;
+        .content-pro{
+            display: flex;
+            margin-top: 15px;
+            .course{
+                font-size: 25px;
+                font-weight: 900;
+                margin-right: 5px;
+            }
+            span{             
+                font-size: 100%;
+                background-color: rgb(45, 106, 248);
+                color: #fff;
+                padding: 3px 6px;
+                border-radius: 5px;
+                position: relative;
+                top: -6px;
+                right: -8px;             
+            }
+            .router{
+                margin-right: 0px;
+                font-weight: 600;
+                display: block;         
+                padding: 5px;
+                color: #f56f35;
+                margin-left: 65%;
+                &:hover{
+                    color: #f64c03;
+                    cursor: pointer;
+                    text-decoration:underline;
+                }
+            }
+        }
+        .list-pro{
+            display: flex;
+            justify-content: space-between;
+            max-width: calc(100% - 8%);
+            margin-top: 10px;
+            .pro-child{
+                width: 220px;
+                
+                .ti-pro{
+                    position: relative;
+                    font-size: 20px;
+                    background-color: rgb(197, 192, 192);
+                    padding: 5px;
+                    border-radius: 7px;
+                    top: 45px;
+                    left: 13px;
+                    color: rgb(245, 212, 65);
+                }
+                img{
+                    border-radius: 23px;
+                    width: 100%;
+                    height: 120px;
+                    &:hover{
+                        cursor: pointer;
+                        opacity: 0.8;
+                    }
+                }
+                p{
+                    display: block;
+                    font-weight: 700;
+                    margin: 10px 0 ;
+                    font-size: 100%;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 1;
+                    overflow: hidden;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    
+                }
+                div{
+                    display: flex;
+                    color: #938e8e;
+                    p{
+                        display: block;
+                        margin: 0;
+                        padding-left: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+        .price{
+            font-weight: 600;
+            color: red;
+            del{
+                margin-right: 10px;
+                font-weight: normal;
+                color: #000;
+            }
+        }
+        .note{
+            margin-top: 30px ;
+            opacity: 0.5;
+        }
+    }
+    .join{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        .describe{
+            margin-left: 5%;
+            margin-top: 100px;
+            max-width: 35%;
+            h2{
+                font-weight: 900;
+                line-height: 1.6;
+            }
+            p{
+                line-height: 1.6;
+                margin-top: 20px;
+                margin-bottom: 35px;
+            }
+            .join-rou{
+                text-decoration: none;
+                color: #000;
+                .join-rou-child{
+                    display: inline-block;
+                    border: 1px solid #000;
+                    font-size: 100%;
+                    padding: 8px;
+                    border-radius: 20px;
+                    background-color: #fff;
+                    &:hover{
+                        background-color: #000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        img{
+            width: 400px;
+            height: 400px;
+            margin-right: 5%;
+        }
+    }
+}
